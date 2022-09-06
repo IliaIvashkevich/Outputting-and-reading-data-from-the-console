@@ -4,17 +4,17 @@ class Main {
   
     Scanner scanner = new Scanner(System.in);
     
-    System.out.println("Введи число");
+    System.out.println("Enter a number");
     int x = scanner.nextInt();
     
-    System.out.println("Введи дробное число");
+    System.out.println("Enter dism. number");
     double d = scanner.nextDouble();
     
-    System.out.println("Введи любой текст");
+    System.out.println("Enter a text");
     String s = scanner.next();
     
-    System.out.println("Вы ввели число: "+ x );
-    System.out.println("Ввел: "+ d);
-    System.out.println("Ввел: "+ s);
+    System.out.println("You have entered: "+ x );
+    System.out.println("Entered: "+ d);
+    System.out.println("Entered: "+ s);
   }
 }
